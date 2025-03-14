@@ -1,0 +1,315 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.gray{
+  background-color: #E4E4E4;
+}
+.nav-content{
+  /* border-bottom: solid red 3px; */
+  /* background-color: #FFFFFF; */
+  height: auto;
+  width: 100%;
+  padding: 0px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* position: fixed; */
+}
+
+
+.cafe-logo-container img {
+  height: 80px;
+}
+.cafe-option-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+/* border: solid; */
+}
+.nav-menu-buttons{
+padding: 10px 20px; 
+text-decoration: none;
+font-size: 1.6rem;
+color: rgb(0, 0, 0);
+text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Istok Web', sans-serif;
+font-weight: 700;
+}
+
+.nav-menu-buttons:hover{
+  color: orange;
+  text-shadow: none;
+}
+/* home section */
+.home{  
+  gap: 100px;
+  padding: 115px 0;
+  /* border: 1px solid; */
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-text{
+  font-family: 'Outfit', sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+}
+.home-pic{
+  padding-left: 100px;
+}
+.home-pic img{
+  width: 518px;
+  height: 411px;
+}
+/* home section */
+
+/* about */
+.aboutus{
+  align-items: start !important;
+  padding: 100px;
+  column-gap: 150px;
+  
+}
+.aboutus-flexbox{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.aboutus-pic{
+  flex-direction: row;
+  column-gap: 10px;
+}
+.aboutus-title{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.aboutus-describe{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+/* about */
+/* menu */
+.text-align-center{
+  text-align: center;
+  margin: auto;
+}
+.menu{
+  padding: 100px;
+}
+.menu-title{
+  padding-bottom:15px !important;
+}
+.menu-describe{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 700px;
+}
+.menu-category-title{
+  padding-top: 90px;
+  display: block;
+  text-decoration-line: underline;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Kaushan Script';
+}
+.coffee-item-container{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  column-gap: 5%;
+  padding: 50px 0px;
+  /* background-color: lightgray; */
+}
+.coffee-item{
+  
+border-radius: 10px;
+/* background-color: lightgoldenrodyellow; */
+background-color: white;
+}
+.item-img img{
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.item-information{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding:10px 20px 50px 20px;
+}
+.icons{
+  display: block;
+}
+.item-name-cost-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-items-font{
+  font-family: 'Kaushan Script';
+}
+.item-cost{
+  padding: 0px 5px;
+  border-radius: 10px;
+  background-color: #d98b67;
+}
+.item-description{
+  width: 100%;
+  padding: 10px 0px;
+  /* border: solid; */
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Comic Neue';
+}
+.order-button button{
+  background-color: #d98b67;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+/* menu */
+
+/* services */
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 100px;
+}
+.services-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 37px 0px;
+  gap: 50px;
+}
+.online-ordering{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  /* max-width: 970px;  */
+}
+.max-width{
+  max-width: 770px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;  
+}
+.online-ordering h1{
+  color:#d98b67;
+}
+
+/* services */
+
+/* contact */
+.contact1{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/upoads/lastpic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 3px; */
+  padding: 45px;
+  text-align: center;
+}
+.contact1-h1{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: #D98B67;
+}
+.contact1-h2{
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+.subscribe-container{
+  position: relative;
+  top: 5px;
+  padding-top: 10px;
+}
+.contact1-input{
+  height: 27.2px;
+  padding: 3px 8px;
+  border: none;
+}
+.contact1-button{
+background: #D98B67;
+border-radius: 10px;
+font-family: 'Outfit'sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+padding: 2px 8px;
+border: none;
+margin-left: 15px;
+position: absolute;
+bottom: -1px;
+}
+/* contact2 */
+.contact2{
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.followup-container div{
+  padding:5px 10px;
+  
+}
+.followus{
+  font-family: 'Outfit';
+  font-weight: 700;
+}
+.followup-container div span{
+  font-family: 'Outfit';
+  font-weight: 400;
+  text-align: left;
+  display: inline-block;
+  padding: 0px 15px;
+}
+.navigation-container{
+  font-family: 'Outfit';
+  font-weight: 400;
+  text-align: left;
+}
+.navigation-list{
+  padding: 10px 0px !important;
+}
+.navigation-list div a{
+  font-family: 'Outfit';
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+/* contact */
+
+
+
